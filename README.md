@@ -6,7 +6,7 @@
 
 Package JSON Analyzer is a modern web app that helps you inspect project metadata, dependencies, scripts, and dependency statistics from a package.json file. The app runs fully in the browser, so your data stays private and secure
 
-[Demo](https://github-readme-designer.vercel.app) · [Docs](https://nextjs.org/docs)
+[Demo](https://json-package-analyzer.vercel.app/) · [Docs](https://nextjs.org/docs)
 
 ## ✨ Features
 - Upload or drag-and-drop a package.json file
@@ -33,7 +33,7 @@ Package JSON Analyzer is a modern web app that helps you inspect project metadat
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/Bikram-Bk/Github-README-Designer.git
+git clone https://github.com/Bikram-Bk/JSON-Package-Analyzer.git
 ```
 
 ### 2. Install dependencies
