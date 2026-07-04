@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Package JSON Analyzer
 
-## Getting Started
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white) ![MIT License](https://img.shields.io/badge/MIT%20License-yellow?style=flat)
 
-First, run the development server:
+> Analyze and understand any package.json file in seconds
+
+Package JSON Analyzer is a modern web app that helps you inspect project metadata, dependencies, scripts, and dependency statistics from a package.json file. The app runs fully in the browser, so your data stays private and secure
+
+[Demo](https://github-readme-designer.vercel.app) · [Docs](https://nextjs.org/docs)
+
+## ✨ Features
+- Upload or drag-and-drop a package.json file
+- Parse and validate package metadata locally in the browser
+- View project overview details such as name, version, author, license, homepage, repository, and keywords
+- Inspect dependencies, dev dependencies, peer dependencies, and optional dependencies
+- Copy dependency/script information or export analysis results as JSON
+- Review summary statistics and version pattern insights
+
+## 🛠️ Technologies
+| Technology | Category |
+| --- | --- |
+| Next.js | frontend |
+| React | frontend |
+| TypeScript | language |
+| Tailwind CSS | styling |
+| Framer Motion | animation |
+| next-themes | themes |
+| Base UI | UI |
+| Lucide React | icons |
+
+## 🚀 Quick Start
+
+### 1. Clone and install
+
+```bash
+git clone https://github.com/Bikram-Bk/Github-README-Designer.git
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the app
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📜 Available Scripts
+| Script | Command |
+| --- | --- |
+| dev | npm run dev |
+| build | npm run build |
+| start | npm run start |
+| lint | npm run lint |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/
+components/
+constants/
+hooks/
+lib/
+types/
+utils/
+```
 
-## Learn More
+## 🚢 Deployment
+- Vercel
 
-To learn more about Next.js, take a look at the following resources:
+## 📚 Documentation
+- [Next.js Documentation](https://nextjs.org/docs)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
+Contributions are welcome! Please open an issue or submit a pull request with a clear description of your changes.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🆘 Support
+- **GitHub Issues**: https://github.com/Bikram-Bk
 
-## Deploy on Vercel
+## 📄 License
+This project is licensed under the MIT license.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Made with ❤️ by Bikram Luhar
